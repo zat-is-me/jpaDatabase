@@ -11,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.jpaDatabase.application.manager.PersonJpaRepository;
 
 @SpringBootApplication
+//Will scan other recourses for the application
 @ComponentScan
 public class jpaDatabaseApplication implements CommandLineRunner {
 
